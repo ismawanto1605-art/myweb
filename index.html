@@ -31,7 +31,7 @@
     ====================== -->
     <<div class="loader" id="loader">
     <div class="loader-logo">
-        <img src="iwt.png" alt="Logo ISMAWANTO">
+        <img src="Images/iwt.png" alt="Logo ISMAWANTO">
     </div>
 
     <div class="loader-line">
@@ -60,8 +60,9 @@
         <a href="#portfolio" class="nav-link">Project</a>
         <a href="#contact" class="nav-link">Kontak</a>
     </nav>
-<a href="https://wa.me/6281325946087" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background-color: #25D366; color: white; padding: 8px 14px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 13px; line-height: 1; max-width: 100%; box-sizing: border-box;">
-  WhatsApp <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+
+<a href="https://wa.me/6281325946087" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 4px; background-color: #25D366; color: white; padding: 4px 4px; border-radius: 5px; text-decoration: none; font-weight: 100;">
+  WhatsApp <i class="fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 
     <button class="menu-btn" id="menuBtn" aria-label="Buka menu">
@@ -146,7 +147,7 @@
 
             <div class="about-lines"></div>
 
-            <img src="About.png" alt="Foto ISMAWANTO">
+            <img src="Images/About.png" alt="Foto ISMAWANTO">
 
         </div>
 
@@ -309,13 +310,13 @@
                 <article class="project-card reveal">
 
                     <div class="project-image">
-                        <img src="porto.png" alt="Personal Portfolio">
+                        <img src="Images/porto.png" alt="Personal Portfolio">
 
                         <div class="project-overlay">
                             <button class="project-open"
                                 data-title="Personal Portfolio Website"
                                 data-description="Website portfolio pribadi dengan desain modern, responsive, dan fokus pada personal branding."
-                                data-image="porto.png">
+                                data-image="Images/porto.png">
                                 VIEW PROJECT
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </button>
@@ -340,44 +341,260 @@
                 </article>
 
 
-                <!-- PROJECT 2 -->
-                <article class="project-card reveal">
+                <!-- MEDIA PEMBELAJARAN -->
+              
+<article class="project-card reveal">
 
-                    <div class="project-image">
-                        <img src="travel-preview.jpg" alt="Travel Website">
+    <div class="project-image">
 
-                        <div class="project-overlay">
-                            <button class="project-open"
-                                data-title="Travel Website"
-                                data-description="Website bertema perjalanan yang dibuat dengan fokus pada visual design dan pengalaman pengguna."
-                                data-image="travel-preview.jpg">
-                                VIEW PROJECT
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </button>
-                        </div>
-                    </div>
+        <!-- Preview project -->
+        <img 
+            src="Images/P2.jpg" 
+            alt="Modul Pembelajaran Interaktif"
+        >
 
-                    <div class="project-info">
-                        <div>
-                            <span>02 / PERSONAL PROJECT</span>
-                            <h3>Travel Website</h3>
-                        </div>
+        <div class="project-overlay">
 
-                        <span class="project-year">2026</span>
-                    </div>
+            <button 
+                class="project-open"
+                type="button"
+                data-title="Modul Pembelajaran Interaktif"
+                data-description="Modul pembelajaran interaktif bertema Pemrograman & Automation yang dirancang dengan tampilan visual modern, interaktif, dan ramah pengguna."
+                data-image="Images/P2.jpg"
+                data-link="https://online.flippingbook.com/view/7234266/"
+            >
+                VIEW PROJECT
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
 
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
+        </div>
+    </div>
 
-                </article>
 
-            </div>
+    <!-- PROJECT INFO -->
+    <div class="project-info">
 
-        </section>
+        <div>
+            <span>02 / EDUCATIONAL PROJECT</span>
 
+            <h3>
+                Modul Pembelajaran Interaktif
+            </h3>
+        </div>
+
+        <span class="project-year">
+            2026
+        </span>
+
+    </div>
+
+
+    <!-- PROJECT TAGS -->
+    <div class="project-tags">
+
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Automation</span>
+
+    </div>
+
+</article>
+
+
+<!-- PROJECT MODAL -->
+<div class="project-modal" id="projectModal">
+
+    <div class="project-modal-overlay"></div>
+
+    <div class="project-modal-content">
+
+        <!-- Close -->
+        <button 
+            class="project-modal-close"
+            type="button"
+            aria-label="Close project"
+        >
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+
+        <!-- Header -->
+        <div class="project-modal-header">
+
+            <span class="modal-label">
+                PROJECT / 02
+            </span>
+
+            <h2 id="modalTitle">
+                Modul Pembelajaran Interaktif
+            </h2>
+
+            <p id="modalDescription">
+                Modul pembelajaran interaktif bertema
+                Pemrograman & Automation.
+            </p>
+
+        </div>
+
+
+        <!-- FLIPPINGBOOK -->
+        <div class="flippingbook-container">
+
+            <a 
+                href="https://online.flippingbook.com/view/7234266/"
+                class="fbo-embed"
+                data-fbo-id="86ef30d162"
+                data-fbo-ratio="3:2"
+                data-fbo-lightbox="yes"
+                data-fbo-width="100%"
+                data-fbo-height="auto"
+                data-fbo-version="1"
+            >
+                Modul Pembelajaran Interaktif:
+                Pemrograman &amp; Automation
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FLIPPINGBOOK SCRIPT -->
+<script 
+    async 
+    defer
+    src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=7234266">
+</script>
+
+
+<!-- PROJECT MODAL SCRIPT -->
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const modal = document.getElementById("projectModal");
+
+    const modalTitle = document.getElementById("modalTitle");
+
+    const modalDescription = document.getElementById("modalDescription");
+
+    const closeButton = document.querySelector(
+        ".project-modal-close"
+    );
+
+    const overlay = document.querySelector(
+        ".project-modal-overlay"
+    );
+
+    const projectButtons = document.querySelectorAll(
+        ".project-open"
+    );
+
+
+    /*
+    ========================================
+    OPEN PROJECT
+    ========================================
+    */
+
+    projectButtons.forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            const title = button.dataset.title;
+
+            const description = button.dataset.description;
+
+            const link = button.dataset.link;
+
+
+            // Update modal
+            modalTitle.textContent = title;
+
+            modalDescription.textContent = description;
+
+
+            // Open modal
+            modal.classList.add("active");
+
+            document.body.classList.add(
+                "modal-open"
+            );
+
+
+            /*
+            Jika ingin tombol/project diarahkan
+            ke FlippingBook secara langsung,
+            gunakan link berikut.
+            */
+
+            console.log(
+                "Project:",
+                link
+            );
+
+        });
+
+    });
+
+
+    /*
+    ========================================
+    CLOSE PROJECT
+    ========================================
+    */
+
+    function closeModal() {
+
+        modal.classList.remove("active");
+
+        document.body.classList.remove(
+            "modal-open"
+        );
+
+    }
+
+
+    closeButton.addEventListener(
+        "click",
+        closeModal
+    );
+
+
+    overlay.addEventListener(
+        "click",
+        closeModal
+    );
+
+
+    /*
+    ========================================
+    ESC KEY
+    ========================================
+    */
+
+    document.addEventListener(
+        "keydown",
+        event => {
+
+            if (
+                event.key === "Escape" &&
+                modal.classList.contains("active")
+            ) {
+
+                closeModal();
+
+            }
+
+        }
+    );
+
+});
+
+</script>
 
         <!-- =====================
              CONTACT
@@ -403,7 +620,6 @@
                 <a href="https://wa.me/6281325946087" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 8px; background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: 500;">
   Chat WhatsApp <i class="fa-solid fa-arrow-up-right-from-square"></i>
 </a>
-
             </div>
 
         </section>
